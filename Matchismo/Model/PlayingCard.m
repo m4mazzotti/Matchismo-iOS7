@@ -30,7 +30,7 @@
 - (void)setSuit:(NSString *)suit
 {
     if ([[PlayingCard validSuits] containsObject:suit]) {
-        suit = _suit;
+        _suit = suit;
     }
 }
 
